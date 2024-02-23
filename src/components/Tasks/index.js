@@ -4,12 +4,12 @@ import PropTypes from 'prop-types'
 
 import "./Tasks.css";
 
-export default function Tasks({ tasks, handleEdit, handleDelete }) {
+export default function Tasks({ tasks, handleEdit, handleDelete, styleTask }) {
   return (
     <ul className="tarefas">
       {/* Key: serve como um norte para um loop em react */}
       {tasks.map((tarefa, indexOfTarefa) => (
-        <li key={indexOfTarefa} >
+        <li key={indexOfTarefa} style={styleTask}>
           {`${indexOfTarefa + 1} - ${tarefa}`}
           <span>
             <FaEdit

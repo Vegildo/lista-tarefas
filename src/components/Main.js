@@ -175,6 +175,7 @@ export default class Main extends Component {
           handleEdit={this.handleEdit}
           handleDelete={this.handleDelete}
           tasks={tasks}
+          styleTask={styleTask}
         />
 
         <h1>Validator de Tarefa</h1>
