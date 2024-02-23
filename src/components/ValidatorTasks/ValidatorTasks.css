@@ -1,0 +1,32 @@
+.validatortasks {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.validatortasks input[type="text"] {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  min-width: 80%;
+}
+
+.validatortasks button[type="submit"] {
+  border: none;
+  height: 40px;
+  width: 40px;
+  background-color: #4DF06D;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
